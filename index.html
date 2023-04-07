@@ -120,7 +120,7 @@
             </div>
             <div class="col me-5">
               <label for="Last-Name" class="form-label">Last Name</label>
-              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="Last-Name">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="Last-name">
             </div>
           </div>
           <div class="row">
@@ -139,9 +139,9 @@
               <label for="jobtype" class="form-label">Select the type of work</label>
               <select type="text" class="form-select" id="jobtype">
                 <option selected>Select the type of work..</option>
-                <option>Front-end development</option>
-                <option>Back-end development</option>
-                <option>Project Analysis</option>
+                <option value="front-end">Front-end development</option>
+                <option value="back-end">Back-end development</option>
+                <option value="project-analysis">Project Analysis</option>
               </select>
 
 
@@ -158,7 +158,7 @@
                 aria-label="Message" id="email">
             </div>
             <div class="d-grid  d-md-block text-center mt- pb-5">
-              <Preview class="btn btn-warning" type="Preview">Send</Preview>
+              <button type="submit" id="button"> Send</button>
 
             </div>
 
